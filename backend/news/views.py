@@ -12,8 +12,8 @@ import os
 
 naver_url = 'https://openapi.naver.com/v1/search/news.json'
 naver_headers = {
-    'X-Naver-Client-Id': config('NAVER_ID'),
-    'X-Naver-Client-Secret': config('NAVER_SC')
+    'X-Naver-Client-Id': 'NAVER_ID',
+    'X-Naver-Client-Secret': 'NAVER_SC'
 }
 
 
